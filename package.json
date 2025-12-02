@@ -7,7 +7,10 @@
   },
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --passWithNoTests",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:watch:coverage": "jest --watch --coverage",
     "lint": "eslint . --fix",
     "format": "prettier --write . \"**/*.{js,json,cjs,mjs,md,html,yml}\"",
     "start": "node src/cli.js"
