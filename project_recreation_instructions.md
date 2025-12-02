@@ -1,6 +1,6 @@
 I need to recreate the `stdcli` project from scratch. Here's a comprehensive set of instructions that, when executed from an empty directory (which will become the project's root folder), will set up the entire project, including all files, dependencies, and configurations developed during this session.
 
-Once the project is created, please replace all instances of `stdcli` with the actual name of the parent folder where this project is created. This replacement should occur in `package.json` for fields like `name`, `repository`, `bugs`, and `homepage`.
+Once the project is created, please replace all instances of `stdcli` with the actual name of the parent folder where this project is created. This replacement should occur in `package.json` for fields like `name`, `repository`, `bugs`, and `homepage`, and in tasks.md. In tasks.md, clear all checkboxes.
 
 ---
 
