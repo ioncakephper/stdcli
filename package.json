@@ -1,0 +1,49 @@
+{
+  "name": "stdcli",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "bin": {
+    "stdcli": "src/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --fix",
+    "format": "prettier --write . \"**/*.{js,json,cjs,mjs,md,html,yml}\"",
+    "start": "node src/cli.js"
+  },
+  "keywords": [
+    "cli",
+    "command-line",
+    "automation",
+    "developer-tools",
+    "productivity",
+    "scaffolding",
+    "generator"
+  ],
+  "author": "Ion Gireada <shytiger@yahoo.com>",
+  "license": "MIT",
+  "description": "A command-line interface for streamlining repetitive tasks and boosting developer productivity.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ioncakephper/stdcli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ioncakephper/stdcli/issues"
+  },
+  "homepage": "https://github.com/ioncakephper/stdcli#readme",
+  "devDependencies": {
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "globals": "^16.5.0",
+    "jest": "^30.2.0",
+    "prettier": "^3.7.3"
+  },
+  "dependencies": {
+    "commander": "^14.0.2",
+    "commander-pkg-meta": "^1.0.1",
+    "cosmiconfig": "^9.0.0",
+    "globby": "^16.0.0"
+  }
+}

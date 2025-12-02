@@ -1,0 +1,37 @@
+- [x] **Project Initialization & Metadata**
+  - [x] Update `package.json`:
+    - [x] Add a concise and informative `description`.
+    - [x] Add relevant `keywords` for discoverability.
+    - [x] Set `license` to "MIT" and create `LICENSE` file with the current year and "Ion Gireada" as the author.
+    - [x] Set `author` field by asking the user for their name and email.
+    - [x] Create `repository`, `bugs`, and `homepage` entries for the GitHub repository `ioncakephper/stdcli`.
+- [x] **Development Tooling & Automation**
+    - [x] Set up linting and formatting:
+        - [x] Install `eslint`, `prettier`, `eslint-plugin-prettier`, and `eslint-config-prettier`.
+        - [x] Create `.eslintrc.json` and `.prettierrc.json` configuration files.
+        - [x] Add `lint` and `format` scripts to `package.json`.
+        - [x] Verify that `npm run lint` and `npm run format` run without errors.
+    - [x] create .gitignore file with standard content for Node.
+    - [ ] Set up unit testing framework (e.g., Jest).
+    - [ ] Add a test script to `package.json`.
+    - [ ] Write a basic test for the "Hello, stdcli!" command.
+    - [ ] Implement configuration file support (e.g., using `cosmiconfig` or a simple JSON file).
+    - [ ] Add a command to view current configurations.
+- [ ] **Core CLI Implementation**
+    - [ ] Implement core CLI structure with `src/cli.js` (shebang, `commander.js`), `src/index.js` (exported `run` function), and update `package.json` accordingly.
+    - [ ] Implement subcommands (e.g., `stdcli create <type>`).
+    - [ ] Add option parsing for commands (e.g., `stdcli command --option value`).
+    - [ ] Implement robust error handling for CLI commands.
+    - [ ] Provide clear and concise user feedback for command execution.
+
+- [x] **Community & Contribution Guidelines**
+  - [x] Create `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md` with standard contributing guidelines and a code of conduct.
+  - [x] Update `README.md` to include "Contributing" and "License" sections with links to the corresponding files.
+- [x] **General Instructions**
+    - [x] Regularly review and update `README.md` to meet high standards of clarity, completeness, and comprehensiveness.
+- [ ] **Deployment & Maintenance**
+    - [ ] Prepare the project for npm publication (e.g., `package.json` fields).
+    - [ ] Choose between using `.npmignore` or `package.files` for npm publications
+    - [ ] Document the release process.
+    - [ ] Set up continuous integration (CI) for automated testing and deployment.
+    - [ ] Plan for future updates and versioning.
